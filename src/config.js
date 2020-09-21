@@ -89,6 +89,7 @@ const defaultConfig = {
   "typingProxyReverse": false,
   "mentionUserInThreadHeader": false,
   "rolesInThreadHeader": false,
+  "anonymizeChannelName": false,
 
   "enableGreeting": false,
   "greetingMessage": null,

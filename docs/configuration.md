@@ -279,6 +279,10 @@ URL to use for attachment and log links. Defaults to `http://IP:PORT`.
 **Default:** `off`  
 If enabled, mod replies will use their nicknames (on the inbox server) instead of their usernames
 
+#### anonymizeChannelName
+**Default:** `off`
+If enabled, channel names will be hashed and salted with the current time in order to protect the user's privacy
+
 ## config.ini vs config.json
 Earlier versions of the bot instructed you to create a `config.json` instead of a `config.ini`.
 **This is still fully supported, and will be in the future as well.**
